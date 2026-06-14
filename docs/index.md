@@ -28,7 +28,7 @@ features:
 |---|---------|--------|----------|
 | 1 | Introducción | ✅ Completado | 30 min |
 | 2 | Fundamentos de Node | ✅ Completado | 58 min |
-| 3 | Desarrollando en Node | 🔄 En progreso | 2 h 7 min |
+| 3 | Desarrollando en Node | ✅ Completado | 2 h 7 min |
 | 4 | Bases de Node + TypeScript | ⏳ Pendiente | 1 h 28 min |
 | 5 | Introducción al testing | ⏳ Pendiente | 2 h 20 min |
 | 6 | Aplicación de consola - Clean Architecture | ⏳ Pendiente | 1 h 49 min |

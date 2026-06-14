@@ -59,3 +59,48 @@ const { getPokemonById } = require('./js-foundation/06-promesas');
 getPokemonById(1)
     .then(name => console.log('Pokémon:', name))
     .catch(err => console.error('Error:', err));
+
+
+// --- Demostración del Adaptador HTTP (Axios) completo ---
+// Descomentar el código de abajo para probar las peticiones HTTP (GET, POST, PUT, DELETE)
+/*
+const { http } = require('./plugins');
+
+const runHttpDemo = async () => {
+    try {
+        console.log('\n--- Iniciando demo de peticiones HTTP con Axios Adaptador ---');
+        
+        // 1. GET - Obtener datos
+        const todo = await http.get('https://jsonplaceholder.typicode.com/todos/1');
+        console.log('GET Result (Todo 1):', todo.title);
+
+        // 2. POST - Enviar/Crear datos
+        const newPost = await http.post('https://jsonplaceholder.typicode.com/posts', {
+            title: 'Nuevo post de curso Node',
+            body: 'Aprendiendo Axios y el patrón adaptador',
+            userId: 1
+        });
+        console.log('POST Result:', newPost);
+
+        // 3. PUT - Actualizar datos
+        const updatedPost = await http.put('https://jsonplaceholder.typicode.com/posts/1', {
+            id: 1,
+            title: 'Post modificado',
+            body: 'Cuerpo actualizado',
+            userId: 1
+        });
+        console.log('PUT Result:', updatedPost);
+
+        // 4. DELETE - Eliminar datos
+        const deleteResult = await http.delete('https://jsonplaceholder.typicode.com/posts/1');
+        console.log('DELETE Result:', deleteResult);
+        
+        console.log('--- Fin de demo de peticiones HTTP ---\n');
+    } catch (error) {
+        console.error('Error en la demo de HTTP:', error.message);
+    }
+};
+
+runHttpDemo();
+*/
+

@@ -3,29 +3,44 @@
 // Tema: Axios vs Fetch, encapsulamiento de clientes HTTP
 // ============================================================
 
-// 'axios' es un paquete de npm para hacer peticiones HTTP
-// Es más popular que el fetch nativo porque:
-//   1. Funciona igual en Node.js y en el navegador
-//   2. Transforma automáticamente JSON
-//   3. Manejo de errores más claro
+// 'axios' es un cliente HTTP basado en promesas para Node.js y el navegador.
+// En este archivo implementamos el "Patrón Adaptador" para envolver la librería.
+// Esto evita que toda nuestra aplicación dependa directamente de Axios.
 const axios = require('axios');
 
-// Creamos nuestro propio objeto de cliente HTTP
-// Encapsulamos axios para poder cambiar la implementación sin
-// afectar al resto de la aplicación
 const httpClientPlugin = {
 
+    // Método GET para obtener datos
     get: async (url) => {
-        // Axios devuelve { data, status, headers, ... }
-        // Desestructuramos solo el 'data' que nos interesa
+        // Axios devuelve un objeto response. Desestructuramos directamente 'data'
+        // que contiene el cuerpo de la respuesta ya parseado a JSON.
         const { data } = await axios.get(url);
         return data;
 
-        // Alternativa nativa con fetch (disponible desde Node 18+):
+        // Comparativa con Fetch API nativo:
         // const response = await fetch(url);
-        // const data = await response.json();
-        // return data;
-    }
+        // return await response.json();
+    },
+
+    // Método POST para enviar/crear datos
+    post: async (url, body) => {
+        const { data } = await axios.post(url, body);
+        return data;
+    },
+
+    // Método PUT para actualizar datos completamente
+    put: async (url, body) => {
+        const { data } = await axios.put(url, body);
+        return data;
+    },
+
+    // Método DELETE para eliminar recursos
+    delete: async (url) => {
+        const { data } = await axios.delete(url);
+        return data;
+    },
 };
 
+// Exportamos nuestro adaptador con el nombre 'http'
 module.exports = { http: httpClientPlugin };
+
