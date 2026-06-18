@@ -4,7 +4,7 @@ Repositorio de notas, código y documentación del curso de Node.js de Udemy.
 
 > **Instructor:** Fernando Herrera  
 > **Plataforma:** Udemy  
-> **Progreso:** ![Progress](https://progress-bar.dev/13/?scale=28&width=200&suffix=/28%20secciones)
+> **Progreso:** ![Progress](https://progress-bar.dev/14/?scale=28&width=200&suffix=/28%20secciones)
 
 ---
 
@@ -12,34 +12,34 @@ Repositorio de notas, código y documentación del curso de Node.js de Udemy.
 
 | # | Sección | Progreso | Duración |
 |---|---------|----------|----------|
-| 1 | [Introducción](./docs/secciones/seccion-01.md) | ✅ 7/7 | 30 min |
-| 2 | [Fundamentos de Node - Primeros pasos](./docs/secciones/seccion-02.md) | ✅ 11/11 | 58 min |
-| 3 | [Desarrollando en Node](./docs/secciones/seccion-03.md) | 🔄 8/20 | 2 h 7 min |
-| 4 | [Bases de Node + TypeScript - Continuación](./docs/secciones/seccion-04.md) | ⏳ 0/12 | 1 h 28 min |
-| 5 | [Introducción al testing](./docs/secciones/seccion-05.md) | ⏳ 0/21 | 2 h 20 min |
-| 6 | [Aplicación de consola - Clean Architecture - Primeros Pasos](./docs/secciones/seccion-06.md) | ⏳ 0/18 | 1 h 49 min |
-| 7 | [Aplicación de consola - Testing](./docs/secciones/seccion-07.md) | ⏳ 0/16 | 1 h 52 min |
-| 8 | [Aplicación de Monitoreo - NOC](./docs/secciones/seccion-08.md) | ⏳ 0/12 | 1 h 8 min |
-| 9 | [Clean Architecture - Repository Pattern](./docs/secciones/seccion-09.md) | ⏳ 0/16 | 1 h 31 min |
-| 10 | [Correos electrónicos](./docs/secciones/seccion-10.md) | ⏳ 0/13 | 1 h 9 min |
-| 11 | [MongoDB y PostgreSQL](./docs/secciones/seccion-11.md) | ⏳ 0/19 | 1 h 53 min |
-| 12 | [NOC - Testing - Clean Architecture](./docs/secciones/seccion-12.md) | ⏳ 0/21 | 2 h 23 min |
-| 13 | [WebServer - Http/Http2](./docs/secciones/seccion-13.md) | ⏳ 0/13 | 1 h 16 min |
-| 14 | [RestServer](./docs/secciones/seccion-14.md) | ⏳ 0/13 | 1 h 14 min |
-| 15 | [RestServer + PostgreSQL](./docs/secciones/seccion-15.md) | ⏳ 0/12 | 1 h 18 min |
-| 16 | [Rest - Clean Architecture](./docs/secciones/seccion-16.md) | ⏳ 0/12 | 1 h 11 min |
-| 17 | [Rest Testing](./docs/secciones/seccion-17.md) | ⏳ 0/20 | 1 h 41 min |
-| 18 | [Autenticación y Autorización](./docs/secciones/seccion-18.md) | ⏳ 0/19 | 1 h 45 min |
-| 19 | [Enviar correo + Validación de Tokens](./docs/secciones/seccion-19.md) | ⏳ 0/11 | 57 min |
-| 20 | [Protección de rutas, relaciones, middlewares y paginación](./docs/secciones/seccion-20.md) | ⏳ 0/15 | 1 h 29 min |
-| 21 | [Relaciones y semilla](./docs/secciones/seccion-21.md) | ⏳ 0/11 | 1 h |
-| 22 | [Carga de archivos - Simple y Múltiple](./docs/secciones/seccion-22.md) | ⏳ 0/14 | 1 h 16 min |
-| 23 | [WebHooks](./docs/secciones/seccion-23.md) | ⏳ 0/14 | 1 h 13 min |
-| 24 | [Seguridad de Webhooks](./docs/secciones/seccion-24.md) | ⏳ 0/6 | 19 min |
-| 25 | [Edge Functions con Netlify](./docs/secciones/seccion-25.md) | ⏳ 0/10 | 43 min |
-| 26 | [Websockets](./docs/secciones/seccion-26.md) | ⏳ 0/12 | 53 min |
-| 27 | [RESTApi + WebSockets - Aplicación de colas](./docs/secciones/seccion-27.md) | ⏳ 0/20 | 2 h 1 min |
-| 28 | [Cierre del curso](./docs/secciones/seccion-28.md) | ⏳ 0/1 | 4 min |
+| 1 | [Introducción](./docs/secciones/01-introduccion/) | ✅ 7/7 | 30 min |
+| 2 | [Fundamentos de Node](./docs/secciones/02-fundamentos-node/) | ✅ 3/3 | 58 min |
+| 3 | [Desarrollando en Node + TypeScript](./docs/secciones/03-desarrollo-node-typescript/) | 🔄 8/20 | 2 h 7 min |
+| 4 | [Bases de Node + TypeScript](./docs/secciones/04-bases-node-typescript-continuacion/) | ⏳ 0/12 | 1 h 28 min |
+| 5 | [Introducción al testing](./docs/secciones/05-introduccion-testing/) | ⏳ 0/21 | 2 h 20 min |
+| 6 | [App de consola - Clean Architecture](./docs/secciones/06-app-consola-clean-architecture/) | ⏳ 0/18 | 1 h 49 min |
+| 7 | [App de consola - Testing](./docs/secciones/07-app-consola-testing/) | ⏳ 0/16 | 1 h 52 min |
+| 8 | [App de Monitoreo - NOC](./docs/secciones/08-app-monitoreo-noc/) | ⏳ 0/9 | 1 h 8 min |
+| 9 | [Clean Architecture - Repository Pattern](./docs/secciones/09-clean-architecture-repository/) | ⏳ 0/10 | 1 h 31 min |
+| 10 | [Correos electrónicos](./docs/secciones/10-correos-electronicos/) | ⏳ 0/8 | 1 h 9 min |
+| 11 | [MongoDB y PostgreSQL](./docs/secciones/11-mongodb-postgresql/) | ⏳ 0/12 | 1 h 53 min |
+| 12 | [NOC - Testing - Clean Architecture](./docs/secciones/12-noc-testing-clean-architecture/) | ⏳ 0/11 | 2 h 23 min |
+| 13 | [WebServer - Http/Http2](./docs/secciones/13-webserver-http/) | ⏳ 0/9 | 1 h 16 min |
+| 14 | [RestServer](./docs/secciones/14-restserver/) | ⏳ 0/8 | 1 h 14 min |
+| 15 | [RestServer + PostgreSQL](./docs/secciones/15-restserver-postgresql/) | ⏳ 0/7 | 1 h 18 min |
+| 16 | [Rest - Clean Architecture](./docs/secciones/16-rest-clean-architecture/) | ⏳ 0/10 | 1 h 11 min |
+| 17 | [Rest Testing](./docs/secciones/17-rest-testing/) | ⏳ 0/10 | 1 h 41 min |
+| 18 | [Autenticación y Autorización](./docs/secciones/18-autenticacion-autorizacion/) | ⏳ 0/10 | 1 h 45 min |
+| 19 | [Enviar correo + Validación de Tokens](./docs/secciones/19-correos-tokens/) | ⏳ 0/6 | 57 min |
+| 20 | [Protección de rutas, relaciones, middlewares y paginación](./docs/secciones/20-proteccion-rutas/) | ⏳ 0/7 | 1 h 29 min |
+| 21 | [Relaciones y semilla](./docs/secciones/21-relaciones-semilla/) | ⏳ 0/7 | 1 h |
+| 22 | [Carga de archivos](./docs/secciones/22-carga-archivos/) | ⏳ 0/8 | 1 h 16 min |
+| 23 | [WebHooks](./docs/secciones/23-webhooks/) | ⏳ 0/7 | 1 h 13 min |
+| 24 | [Seguridad de Webhooks](./docs/secciones/24-seguridad-webhooks/) | ⏳ 0/5 | 19 min |
+| 25 | [Edge Functions con Netlify](./docs/secciones/25-edge-functions-netlify/) | ⏳ 0/7 | 43 min |
+| 26 | [Websockets](./docs/secciones/26-websockets/) | ⏳ 0/8 | 53 min |
+| 27 | [RESTApi + WebSockets](./docs/secciones/27-restapi-websockets/) | ⏳ 0/8 | 2 h 1 min |
+| 28 | [Cierre del curso](./docs/secciones/28-cierre-curso/) | ⏳ 0/1 | 4 min |
 
 ---
 
@@ -66,11 +66,22 @@ npm run docs:dev
 │   │   └── config.js
 │   ├── index.md
 │   └── secciones/
-│       ├── seccion-01.md
-│       ├── seccion-02.md
-│       └── ...
+│       ├── 01-introduccion/
+│       │   ├── README.md
+│       │   ├── 01-que-es-node.md
+│       │   └── ...
+│       ├── 02-fundamentos-node/
+│       │   ├── README.md
+│       │   └── ...
+│       ├── 03-desarrollo-node-typescript/
+│       │   ├── README.md
+│       │   ├── parte-1-js-fundamentos/
+│       │   └── parte-2-loggers-typescript/
+│       └── ... (28 secciones en total)
 ├── proyectos/
-│   └── (código de los proyectos del curso)
+│   ├── 01-fundamentos/
+│   ├── 02-bases/
+│   └── 03-bases/
 └── package.json
 ```
 
