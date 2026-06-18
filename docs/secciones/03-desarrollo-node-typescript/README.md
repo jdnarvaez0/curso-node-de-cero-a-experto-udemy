@@ -3,7 +3,7 @@
 > **Progreso:** 🔄 En progreso (8/20 clases parte 1)  
 > **Duración:** 2 h 7 min
 
-> 📦 **Código base (JavaScript):** `proyectos/03-bases/`  
+> 📦 **Código base (JavaScript):** `proyectos/02-bases/`  
 > 🍴 **Fork del repo del instructor:** [Klerith/node-ts-bases@fin-seccion-3](https://github.com/Klerith/node-ts-bases/tree/fin-seccion-3)  
 > 📌 Esta sección cubre dos grandes temas: **JavaScript avanzado en Node** + **Loggers (Winston) y migración a TypeScript**.
 

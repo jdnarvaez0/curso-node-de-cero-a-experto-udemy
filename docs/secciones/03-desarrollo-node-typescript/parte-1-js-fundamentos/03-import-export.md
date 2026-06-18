@@ -30,4 +30,4 @@ console.log(sumar(2, 3));   // 5
 
 > Para usar ES Modules nativos en Node, hay que añadir `"type": "module"` al `package.json` o usar la extensión `.mjs`.
 
-> 📁 Ver: `proyectos/03-bases/src/app.js` y `proyectos/03-bases/src/js-foundation/01-template.js`
+> 📁 Ver: `proyectos/02-bases/src/app.js` y `proyectos/02-bases/src/js-foundation/01-template.js`

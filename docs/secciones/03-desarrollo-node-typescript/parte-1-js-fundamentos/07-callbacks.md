@@ -38,4 +38,4 @@ module.exports = { getUserById };
 
 Permite manejar errores de forma uniforme en todo Node.js. Es la base sobre la que luego se construyen las **Promesas** y `async/await`.
 
-> 📁 Ver: `proyectos/03-bases/src/js-foundation/03-callbacks.js`
+> 📁 Ver: `proyectos/02-bases/src/js-foundation/03-callbacks.js`

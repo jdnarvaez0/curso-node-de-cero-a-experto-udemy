@@ -53,7 +53,7 @@ const run = async () => {
 };
 ```
 
-> 📁 Ver: `proyectos/03-bases/src/plugins/http-client.plugin.js`
+> 📁 Ver: `proyectos/02-bases/src/plugins/http-client.plugin.js`
 
 ## 📦 Plugins del Proyecto
 

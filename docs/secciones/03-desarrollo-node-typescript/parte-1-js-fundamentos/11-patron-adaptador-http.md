@@ -26,4 +26,4 @@ const httpClientPlugin = {
 2. No maneja errores HTTP de forma estándar (un 404 NO rechaza la promesa).
 3. La API es menos ergonómica que Axios.
 
-> 📁 Ver: `proyectos/03-bases/src/plugins/http-client.plugin.js`
+> 📁 Ver: `proyectos/02-bases/src/plugins/http-client.plugin.js`

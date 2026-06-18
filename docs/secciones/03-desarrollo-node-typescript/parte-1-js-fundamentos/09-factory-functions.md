@@ -51,4 +51,4 @@ const person = makePerson({ name: 'Juan', birthday: '1990-05-15' });
 - ✅ **Desacoplado**: el archivo de lógica no sabe qué librería usas.
 - ✅ **Flexible**: cambiar de `uuid` a `nanoid` es cuestión de un archivo.
 
-> 📁 Ver: `proyectos/03-bases/src/js-foundation/05-factory.js`
+> 📁 Ver: `proyectos/02-bases/src/js-foundation/05-factory.js`

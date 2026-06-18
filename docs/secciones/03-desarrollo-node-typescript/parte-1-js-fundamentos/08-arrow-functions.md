@@ -35,4 +35,4 @@ const getUserById = (id, callback) => {
 const sumar = (a, b) => a + b;
 ```
 
-> 📁 Ver: `proyectos/03-bases/src/js-foundation/04-arrow.js`
+> 📁 Ver: `proyectos/02-bases/src/js-foundation/04-arrow.js`

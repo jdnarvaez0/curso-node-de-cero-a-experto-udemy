@@ -47,4 +47,4 @@ module.exports = getPokemonById;
 - `.then().catch()`: encadenamiento rápido, menos código.
 - `async/await`: cuando hay varios `await` consecutivos o lógica condicional. Más legible.
 
-> 📁 Ver: `proyectos/03-bases/src/js-foundation/06-promises.js` y `proyectos/03-bases/src/app.js`
+> 📁 Ver: `proyectos/02-bases/src/js-foundation/06-promises.js` y `proyectos/02-bases/src/app.js`

@@ -98,7 +98,7 @@ npm install -D nodemon ts-node
 ## 📂 Estructura final del proyecto
 
 ```
-proyectos/03-bases/
+proyectos/02-bases/
 ├── dist/                          # ← generado por tsc (JS compilado)
 ├── logs/
 │   ├── error.log
